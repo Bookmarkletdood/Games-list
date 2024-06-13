@@ -4,6 +4,14 @@ body {
     font-family: sans-serif;
 }
 
+.container {
+    padding: 20px;
+}
+
+.box {
+    
+}
+
 #searchbar {
     outline: none;
     width: 374px;
