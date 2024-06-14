@@ -1,5 +1,5 @@
 body {
-    background-color: black
+    background-color: black;
     color: white;
     font-family: sans-serif;
 }
@@ -9,7 +9,7 @@ body {
 }
 
 .box {
-    
+    color: white;
 }
 
 #searchbar {
@@ -20,4 +20,8 @@ body {
     padding: 12px;
     margin-bottom: 10px;
     transition: 0.2s ease;
+}
+
+#My-Games {
+color: white;
 }
