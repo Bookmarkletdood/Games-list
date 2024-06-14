@@ -9,7 +9,11 @@ body {
 }
 
 .box {
-    color: white;
+    margin: auto;
+    background-color: 40, 0, 77;
+    padding: 10px;
+    width: 400px;
+
 }
 
 #searchbar {
@@ -23,5 +27,74 @@ body {
 }
 
 #My-Games {
-color: white;
+overflow-x: hidden;
+overflow-y: scroll;
+width: 400px;
+height: auto;
+padding: 0;
+text-align: center;
+}
+
+#Other-Games {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 400px;
+    height: auto;
+    padding: 0;
+    text-align: center;
+}
+
+#searchbar:focus {
+    background-color: #eee;
+    box-shadow: inset 0 0 5px 1px rgba(40, 0, 77, 0.4);
+}
+
+#My-Games h2 {
+    display: block;
+    color: white;
+    font: 18px;
+    margin: -1px 0 0 0;
+    padding: 12px;
+    font-weight: bold;
+    user-select: none;
+}
+
+#Other-games h2 {
+    display: block;
+    color: white;
+    font: 18px;
+    margin: -1px 0 0 0;
+    padding: 12px;
+    font-weight: bold;
+    user-select: none;
+}
+
+#My-Games a {
+    display: block;
+    text-decoration: inherit;
+    color: rgb(122, 122, 122);
+    font-size: 18px;
+    margin-top: -1px;
+    padding: 2.5px;
+    transition: 0.2s ease;
+}
+
+#Other-Games a {
+    display: block;
+    text-decoration: inherit;
+    color: rgb(122, 122, 122);
+    font-size: 18px;
+    margin-top: -1px;
+    padding-top: 2.5px;
+    transition: 0.2s ease;
+}
+
+#My-Games a:hover {
+    background-color: #eeeeee;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#Other-Games a:hover {
+    background-color: #eeeeee;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
