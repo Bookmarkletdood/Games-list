@@ -90,7 +90,8 @@ text-align: center;
 #Other-Games a {
     display: block;
     text-decoration: inherit;
-    color: rgb(122, 122, 122);
+    color: white;
+    
     font-size: 18px;
     margin-top: -1px;
     padding-top: 2.5px;
