@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-image: linear-gradient(#22013b, #000000);
     color: white;
     font-family: sans-serif;
 }
@@ -27,15 +27,33 @@ body {
 }
 
 #My-Games {
-overflow-x: hidden;
-overflow-y: scroll;
-width: 400px;
-height: auto;
-padding: 0;
-text-align: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 400px;
+    height: auto;
+    padding: 0;
+    text-align: center;
 }
 
 #Other-Games {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 400px;
+    height: auto;
+    padding: 0;
+    text-align: center;
+}
+
+#Websites {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 400px;
+    height: auto;
+    padding: 0;
+    text-align: center;
+}
+
+#Bookmarklets {
     overflow-x: hidden;
     overflow-y: scroll;
     width: 400px;
@@ -58,6 +76,7 @@ text-align: center;
     font-weight: bold;
     user-select: none;
     border: white;
+    text-align: center;
 }
 
 #Other-games h2 {
@@ -68,6 +87,29 @@ text-align: center;
     padding: 12px;
     font-weight: bold;
     user-select: none;
+    text-align: center;
+}
+
+#Websites h2 {
+    display: block;
+    color: white;
+    font: 18px;
+    margin: -1px 0 0 0;
+    padding: 12px;
+    font-weight: bold;
+    user-select: none;
+    text-align: center;
+}
+
+#Bookmarklets h2 {
+    display: block;
+    color: white;
+    font: 18px;
+    margin: -1px 0 0 0;
+    padding: 12px;
+    font-weight: bold;
+    user-select: none;
+    text-align: center;
 }
 
 #My-Games a {
@@ -75,15 +117,13 @@ text-align: center;
     text-decoration: inherit;
     color: white;
     border: 2px solid white;
-    border-radius: 50%;
-    border-style: dashed;
     font-size: 18px;
     margin-top: 1px;
     padding: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     transition: 0.2s ease;
     background-image: linear-gradient(#000000, #2c004d);
-    
+
 }
 
 
@@ -91,11 +131,41 @@ text-align: center;
     display: block;
     text-decoration: inherit;
     color: white;
-    
+    border: 2px solid white;
     font-size: 18px;
-    margin-top: -1px;
-    padding-top: 2.5px;
+    margin-top: 1px;
+    padding: 25px;
+    margin-bottom: 25px;
     transition: 0.2s ease;
+    background-image: linear-gradient(#000000, #2c004d);
+}
+
+#Websites a {
+    display: block;
+    text-decoration: inherit;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    margin-top: 1px;
+    padding: 25px;
+    margin-bottom: 25px;
+    transition: 0.2s ease;
+    background-image: linear-gradient(#000000, #2c004d);
+    text-align: center;
+}
+
+#Bookmarklets a {
+    display: block;
+    text-decoration: inherit;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    margin-top: 1px;
+    padding: 25px;
+    margin-bottom: 25px;
+    transition: 0.2s ease;
+    background-image: linear-gradient(#000000, #2c004d);
+    text-align: center;
 }
 
 #My-Games a:hover {
@@ -106,4 +176,14 @@ text-align: center;
 #Other-Games a:hover {
     background-color: #eeeeee;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#Websites a:hover {
+    background-color: #eeeeee;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#Bookmarklets a:hover {
+    background-color: #eeeeee;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4)
 }
