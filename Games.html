@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Games List</title>
@@ -13,18 +13,27 @@
                 onkeyup="document.querySelectorAll('#games>a').forEach(l=>l.style.display=l.textContent.toUpperCase().includes(this.value.toUpperCase().replace(/ /g,''))?'block':'none')"
                 autocomplete="off" spellcheck="false" placeholder="Search">
             <div id="My-Games">
-                <h2>My Games</h2>
+                <h2>My games</h2>
                 <a href="./Game-Files/My games/1v1.lol-main.zip">1v1.lol</a>
                 <a href="./Game-Files/My games/just-fall.lol.zip">just-fall.lol</a>
             </div>
             <div id="Websites">
                 <h2>Websites</h2>
-                <a href="https://scratch.mit.edu/projects/950469927/fullscreen/">Dodger (Scratch)</a>
                 <a href="https://rocketpult.github.io">Rocketpult</a>
-                <div id="Other-Games">
-                    <h2>Other Games</h2>
-                    <a href="./Game-Files/My games/Other games/chromedino.html">Chrome Dino Game</a>
+                <a href="https://sites.google.com/site/classroom6x/">6x Unblocked Games</a>
+                <a
+                    href="https://github.com/dragon731012/-WORKING-bookmarklets-and-games/blob/main/games/tonsofgames.html">Original
+                    Games List</a>
+            </div>
+            <div id="Other-Games">
+                <h2>Other Games</h2>
+                <a href="test">testing</a>
+                <div id="Bookmarklets">
+                    <h2>Bookmarklets</h2>
+                    <a href="">Stop all bookmarklets</a>
+                    <a href=" javascript:(function() {  var startX, startY, modal, diffX, diffY;  modal = document.createElement('iframe');  modal.setAttribute('src', 'https://neal.fun/perfect-circle/');  modal.setAttribute('id', 'rusic-modal');  modal.setAttribute('style', 'position: fixed; z-index: 500000; width: 500px; height: 500px; right: 10px; top: 10px; border-radius: 20px; border: 10px solid #047a0e; overflow: hidden; background-color: #fff;');  document.body.appendChild(modal);    modal.addEventListener('mousedown', function(event) {    startX = event.clientX;    startY = event.clientY;    diffX = startX - modal.offsetLeft;    diffY = startY - modal.offsetTop;    document.addEventListener('mousemove', onMove);    document.addEventListener('mouseup', onUp);  });    function onMove(event) {    modal.style.left = (event.clientX - diffX) + 'px';    modal.style.top = (event.clientY - diffY) + 'px';  }    function onUp(event) {    document.removeEventListener('mousemove', onMove);    document.removeEventListener('mouseup', onUp);  }})();">Make a Perfect Circle</a>
                 </div>
+            </div>
 </body>
 
 </html>
