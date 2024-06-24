@@ -1,189 +1,69 @@
 body {
-    background-image: linear-gradient(#22013b, #000000);
-    color: white;
-    font-family: sans-serif;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
 }
 
 .container {
-    padding: 20px;
+	padding: 20px;
 }
 
 .box {
-    margin: auto;
-    background-color: 40, 0, 77;
-    padding: 10px;
-    width: 400px;
-
+	margin: auto;
+	background-color: white;
+	padding: 10px;
+	width: 400px;
 }
 
-#searchbar {
-    outline: none;
-    width: 374px;
-    font-size: 16px;
-    border: 1px solid black;
-    padding: 12px;
-    margin-bottom: 10px;
-    transition: 0.2s ease;
+#glist {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 400px;
+	height: 520px;
+	padding: 0;
+	text-align: center;
 }
 
-#My-Games {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    width: 400px;
-    height: auto;
-    padding: 0;
-    text-align: center;
+#gsearchbar {
+	outline: none;
+	width: 374px;
+	font-size: 16px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 12px;
+	margin-bottom: 10px;
+	transition: 0.2s ease;
 }
 
-#Other-Games {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    width: 400px;
-    height: auto;
-    padding: 0;
-    text-align: center;
+#gsearchbar:focus {
+	background-color: #eee;
+	box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.4);
 }
 
-#Websites {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    width: 400px;
-    height: auto;
-    padding: 0;
-    text-align: center;
+#glist h2 {
+	display: block;
+	color: white;
+	font: 18px;
+	border: 1px solid #060606;
+	margin: -1px 0 0 0;
+	background-color: #060606;
+	padding: 12px;
+	font-weight: bold;
+	user-select: none;
 }
 
-#Bookmarklets {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    width: 400px;
-    height: auto;
-    padding: 0;
-    text-align: center;
+#glist a {
+	display: block;
+	text-decoration: inherit;
+	color: black;
+	font-size: 18px;
+	border: 1px solid #dddddd;
+	margin-top: -1px;
+	background-color: #f6f6f6;
+	padding: 12px;
+	transition: 0.2s ease;
 }
 
-#searchbar:focus {
-    background-color: #eee;
-    box-shadow: inset 0 0 5px 1px rgba(40, 0, 77, 0.4);
-}
-
-#My-Games h2 {
-    display: block;
-    color: white;
-    font: 18px;
-    margin: -1px 0 0 0;
-    padding: 12px;
-    font-weight: bold;
-    user-select: none;
-    border: white;
-    text-align: center;
-}
-
-#Other-games h2 {
-    display: block;
-    color: white;
-    font: 18px;
-    margin: -1px 0 0 0;
-    padding: 12px;
-    font-weight: bold;
-    user-select: none;
-    text-align: center;
-}
-
-#Websites h2 {
-    display: block;
-    color: white;
-    font: 18px;
-    margin: -1px 0 0 0;
-    padding: 12px;
-    font-weight: bold;
-    user-select: none;
-    text-align: center;
-}
-
-#Bookmarklets h2 {
-    display: block;
-    color: white;
-    font: 18px;
-    margin: -1px 0 0 0;
-    padding: 12px;
-    font-weight: bold;
-    user-select: none;
-    text-align: center;
-}
-
-#My-Games a {
-    display: block;
-    text-decoration: inherit;
-    color: white;
-    border: 2px solid white;
-    font-size: 18px;
-    margin-top: 1px;
-    padding: 25px;
-    margin-bottom: 25px;
-    transition: 0.2s ease;
-    background-image: linear-gradient(#000000, #2c004d);
-
-}
-
-
-#Other-Games a {
-    display: block;
-    text-decoration: inherit;
-    color: white;
-    border: 2px solid white;
-    font-size: 18px;
-    margin-top: 1px;
-    padding: 25px;
-    margin-bottom: 25px;
-    transition: 0.2s ease;
-    background-image: linear-gradient(#000000, #2c004d);
-}
-
-#Websites a {
-    display: block;
-    text-decoration: inherit;
-    color: white;
-    border: 2px solid white;
-    font-size: 18px;
-    margin-top: 1px;
-    padding: 25px;
-    margin-bottom: 25px;
-    transition: 0.2s ease;
-    background-image: linear-gradient(#000000, #2c004d);
-    text-align: center;
-}
-
-#Bookmarklets a {
-    display: block;
-    text-decoration: inherit;
-    color: white;
-    border: 2px solid white;
-    font-size: 18px;
-    margin-top: 1px;
-    padding: 25px;
-    margin-bottom: 25px;
-    transition: 0.2s ease;
-    background-image: linear-gradient(#000000, #2c004d);
-    text-align: center;
-}
-
-#My-Games a:hover {
-    background-image: #eee;
-    text-shadow: none
-}
-
-#Other-Games a:hover {
-    background-color: #eeeeee;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-}
-
-#Websites a:hover {
-    background-color: #eeeeee;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-}
-
-#Bookmarklets a:hover {
-    background-color: #eeeeee;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4)
+#glist a:hover {
+	background-color: #eeeeee;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
